@@ -1,0 +1,62 @@
+body {
+	background-color: #ccc;
+}
+h1 {
+	text-align: center;
+}
+
+.slider {
+	border: 2px solid black;
+	width: 650px;
+	height: 450px;
+	margin: 50px auto;
+	position: relative;
+}
+
+.slider img {
+	width: 650px;
+	height: 450px;
+	position: absolute;
+	opacity: 1;
+	transition: all ease 1s;
+}
+
+.slider .opacity0 {
+	opacity: 0;
+}
+
+.btn {
+	background-color: #5ff;
+	width: 36px;
+	height: 36px;
+	position: absolute;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+}
+
+.btn-right {
+	top: 200px;
+	right: 20px;
+}
+
+.btn-left {
+	top: 200px;
+	left: 20px;
+}
+
+.bullets {
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: yellow;
+}
+
+.bullets div{
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	display: inline-block;
+
+}

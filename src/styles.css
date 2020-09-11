@@ -3,6 +3,7 @@ body {
 }
 h1 {
 	text-align: center;
+	color: #555
 }
 
 .slider {
@@ -50,13 +51,13 @@ h1 {
 	width: 100px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: yellow;
 }
 
 .bullets div{
 	width: 10px;
 	height: 10px;
-	background-color: red;
+	background-color: #555;
 	display: inline-block;
+	border-radius: 50%;
 
 }
